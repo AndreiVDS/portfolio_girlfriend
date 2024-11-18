@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <title>Meu Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Micheli J.S Raasch</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiências</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburguer-nav">
+        <div class="logo" id="home">Micheli J.S Raasch</div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experiências</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+    <div class="section__pic-container1">
+        <img src="assets/foto perfil-Photoroom.jpg" alt="Foto de perfil de Micheli Jaqueline Sauner Raasch">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Olá, Eu sou</p>
+        <h1 class="title">Micheli Jaqueline Sauner Raasch</h1>
+        <p class="section__text__p2">Futura professora de Educação Física</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/curriculo andrei.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Fale Comigo</button>
+        </div>
+        <div class="socials-container">
+            <img src="assets/icons8-linkedin-48.png" 
+            alt="Meu perfil do linkedin"  
+            class="icon"                        
+            onclick="location.href='https://linkedin.com.br/'">
+
+            <img src="assets/icons8-instagram-48.png" 
+            alt="Meu perfil do instagram"  
+            class="icon"                        
+            onclick="location.href='https://www.instagram.com/mihh_raasch/'">
+
+            <img src="assets/icons8-whatsapp-48.png" 
+            alt="Meu contato do whatsapp"  
+            class="icon"
+            onclick="location.href='https://wa.me/554788448071'">
+
+        </div>
+    </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Me Conheça um Pouco Mais</p>
+        <h1 class="section__text__p1">Sobre Mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/micheli grande.jpg" alt="foto de perfil" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/remote-worker.gif" 
+                        alt="experience icon" 
+                        class="icon">
+                        <h3>Experiência</h3>
+                        <p>+60 horas voluntária em ambientes de Jaraguá do Sul <br>Assistente Administrativa na TRAPP e Verdi & Oelke <br>Atendimento ao Público</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education (1).gif" 
+                        alt="education icon" 
+                        class="icon">
+                        <h3>Formação</h3>
+                        <p>+2 anos de andamento na Faculdade UNISOCIESC em Faculdade de Educação Fisica <br>Ensino Médio Completo<br>Curso de Informática na Jumper</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed minima assumenda dolore, nulla recusandae quisquam illum molestiae a? Voluptatem dignissimos itaque ex doloribus temporibus mollitia voluptatum a nisi eius unde?</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/icons8-double-down-50.png" 
+        alt="icone de descer para baixo" 
+        class="icon arrow" 
+        onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore minhas</p>
+        <h1 class="title">Experiência</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Hard Skills</h2>
+                    <div class="article-container">
+                        <!--slides de fotos de experiencias-->
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Planejamento Educacional</h3>
+                                <p>Básico</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Informática</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Conhecimento de jogos para bem estar</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Relação interpessoal</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Soft Skills</h2>
+                    <div class="article-container">
+                        <!--slides de fotos de experiencias-->
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Comunicação</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Proatividade</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Capacidade de Adaptação</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Curiosidade</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Sociabilidade com crianças e adultos</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/icons8-checkmark-50.png" 
+                            alt="experience icon" 
+                            class="icon">
+                            <div>
+                                <h3>Colaboração</h3>
+                                <p>Avançado</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/icons8-double-down-50.png" 
+        alt="icone de descer para baixo" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Navegue em meus projetos</p>
+        <h1 class="title">Projetos</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/volutario 2.avif"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Projeto um</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn n1"
+                  onclick="location.href='https://instagram.com/'"
+                >
+                  instagram
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn n2"
+                  onclick="location.href='https://linkedin.com/'"
+                >
+                  Linkedin
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/voluntario 2.jpg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Projeto dois</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn n1"
+                  onclick="location.href='https://instagram.com/'"
+                >
+                  Instagram
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn n2"
+                  onclick="location.href='https://linkedin.com/'"
+                >
+                  Linkedin
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/voluntariado 3.avif"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Projeto três</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn n1"
+                  onclick="location.href='https://instagram.com/'"
+                >
+                  Instagram
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn n2"
+                  onclick="location.href='https://linkedin.com/'"
+                >
+                  Linkedin
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="assets/icons8-double-down-50.png" 
+        alt="icone de descer para baixo" 
+        class="icon arrow" 
+        onclick="location.href='./#contact'"
+        />
+    </section>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Entre em contato</p>
+      <h1 class="title">Fale Comigo</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/icons8-nova-mensagem-50.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p class="p-container"><a href="mailto:michelemanu8677@gmail.com">michelemanu8677@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/icons8-linkedin-48.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p class="p-container"><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Andrei Vinicius. All Rights Reserved.</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
