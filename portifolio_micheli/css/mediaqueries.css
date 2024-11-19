@@ -40,7 +40,7 @@
   }
 
   #about {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .experience-details-container .btn {
@@ -102,7 +102,7 @@
   }
 
   #about {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .experience-details-container .btn {
@@ -121,7 +121,7 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -133,6 +133,13 @@
     #projects {
       height: fit-content;
     }
+  }
+  .text-container {
+    font-size: 0.8rem;
+  }
+
+  .details-container {
+    font-size: 0.8rem;
   }
   
   @media screen and (max-width: 1200px) {
@@ -176,6 +183,30 @@
 
     .about-containers {
       margin-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    #hamburguer-nav {
+      position: absolute; /* Posiciona o menu sobre o conteúdo */
+      top: 0;
+      left: 0;
+      width: 90%;
+      z-index: 10; /* Eleva o menu acima de outros elementos */
+      background-color: rgba(255, 255, 255, 0.9); /* Fundo semitransparente para destaque */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    .section__pic-container1 {
+    position: relative;
+    margin-top: 12rem; /* Cria espaço para o menu */
+    }
+    .section__pic-container1 img {
+    width: 100%;
+    height: auto;
+    max-height: 45vh; /* Ajusta a altura da foto para caber no layout */
     }
   }
   
@@ -231,7 +262,7 @@
       width: 100%;
       height: auto;
       max-height: 45vh; /* Ajusta a altura da foto para caber no layout */
-  }
+    }
     .section__text__p2 {
       font-size: 1.25rem;
     }
